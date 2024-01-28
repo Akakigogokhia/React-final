@@ -1,0 +1,6 @@
+.myListings {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 82px 20px 20px 20px;
+}

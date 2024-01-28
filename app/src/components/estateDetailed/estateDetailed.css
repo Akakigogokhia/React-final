@@ -1,0 +1,47 @@
+.estateDetailed {
+  padding-top: 72px;
+  width: 100%;
+  height: calc(100vh - 72px);
+  display: flex;
+  gap: 50px;
+}
+
+.estateDetailed-info {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  flex: 1;
+  padding: 50px 100px 20px 20px;
+}
+
+.estateDetailed-title {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.estateDetailed-price {
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.estateDetailed-address {
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(54, 133, 236);
+}
+
+.estateDetailed-desc {
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.estateDetailed-details {
+  display: flex;
+  gap: 20px;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+
+.estateDetailed-phone {
+  font-size: 19px;
+}

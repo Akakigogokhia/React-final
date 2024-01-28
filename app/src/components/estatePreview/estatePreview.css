@@ -1,0 +1,62 @@
+.estatePreview {
+  width: 80%;
+  box-sizing: border-box;
+  border-radius: 12px;
+  border: 1px solid rgb(234, 235, 236);
+  box-shadow: rgba(16, 24, 40, 0.06) 0px 2px 4px -2px;
+  padding: 12px 16px 12px 12px;
+  background-color: white;
+  display: flex;
+  gap: 20px;
+  cursor: pointer;
+  position: relative;
+}
+
+.img {
+  width: 217px;
+  min-height: 212px;
+  height: max-content;
+  border-radius: 3px;
+}
+
+.estatePreview-info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.estatePreview-title {
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.estatePreview-price {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.estatePreview-address {
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(54, 133, 236);
+}
+
+.estatePreview-desc {
+  margin-top: 10px;
+  font-size: 13px;
+}
+
+.estatePreview-details {
+  display: flex;
+  gap: 10px;
+  margin-top: auto;
+}
+
+.delete {
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  z-index: 99;
+}

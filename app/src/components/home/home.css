@@ -1,0 +1,44 @@
+.home {
+  background-color: #f8f8f9;
+  padding: 72px 20px 20px 20px;
+  box-sizing: border-box;
+}
+
+.home-info {
+  font-size: 20px;
+  margin: 20px;
+}
+
+.home-estates {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.home-search {
+  width: 40%;
+  min-width: 200px;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid rgb(36, 79, 195);
+  outline: none;
+  padding: 0 10px;
+}
+
+.search-container {
+  margin-top: 20px;
+  font-size: 18px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  height: auto;
+}
+
+.search {
+  width: 80px;
+  height: 35px;
+  background-color: rgb(36, 79, 195);
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
